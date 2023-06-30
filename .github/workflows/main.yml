@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp://103.75.187.17
+        server: ftp.nmt.com.vn
         username: caviafurni.vn@caviafurni.vn
         password: ${{ secrets.ftp_password }}
